@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+
+    <body>
+        
+        <form>
+            <fieldset>
+                <legend>Meu Formulário</legend>
+                <div><input type="text" name="nome" placeholder="Digite o seu nome" /></div>
+                <div><input type="text" name="email" placeholder="Digite o seu email" /></div>
+                
+                <div>
+                    <select name="lista">
+                        <option disabled selected>Qual sua idade?</option>
+                        <option value="20">20</option>
+                        <option value="25+">25+</option>
+                        <option value="40+">40+</option>
+                        </select>
+                
+                </div>
+
+                <div>
+                    <h2>Qual sua cidade?</h2>
+                </div>
+                <div class="input">
+                    <div>
+                        <input type="radio" name="cidade" value="Penápolis" /><span>Penápolis</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="cidade" value="São Paulo" /><span>São Paulo</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="cidade" value="Rio de Janeiro" /><span>Rio de Janeiro</span>
+                    </div>
+                </div>
+                <div>
+                    <h2>Oque você gosta de comer?</h2>
+                </div>
+                <div class="input">
+                    <div>
+                        <input type="checkbox" name="comida[]" value="Frutas" /><span>Frutas</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="comida[]" value="Fast food" /><span>Fast food</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="comida[]" value="Carnes" /><span>Carnes</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <div>
+                        <textarea name="obervacao" placeholder="Possui alguma observação?"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="acao" value="Enviar!" />
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
